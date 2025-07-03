@@ -1,0 +1,27 @@
+HTTP/1.1 401 Unauthorized
+Date: Thu, 24 Apr 2025 08:12:15 GMT
+Content-Length: 12
+Connection: keep-alive
+Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+X-DNS-Prefetch-Control: off
+Expect-CT: max-age=0
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer
+X-XSS-Protection: 0
+credentials: include
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: undefined
+Access-Control-Allow-Methods: GET,PUT,POST,DELETE
+Access-Control-Allow-Headers: X-Requested-With, X-HTTP-Method-Override, Content-Type, Accept
+cf-cache-status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=cjuTJ5q6wgVxeSNeH%2F1u6LxvPeS3pAUh2SR5qjTn77AkmBktEqVIrQwK2ooFHEotyklT%2FT4NEOezAFhORG6cifKPrFJUwWATgU8998l6FzIT3MzSBnzYR9a4OSoFBKjYUszJCh%2FNRE2ZTAJxSeWDoA%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 935422762be53b21-BOM
+server-timing: cfL4;desc="?proto=TCP&rtt=17044&min_rtt=16950&rtt_var=6544&sent=5&recv=6&lost=0&retrans=0&sent_bytes=3133&recv_bytes=839&delivery_rate=244040&cwnd=252&unsent_bytes=0&cid=533f9cb0ec829b77&ts=69&x=0"
+
+Unauthorized

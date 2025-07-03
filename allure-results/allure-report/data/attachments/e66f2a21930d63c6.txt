@@ -1,0 +1,29 @@
+Request method:	POST
+Request URI:	https://devoutshade.sacredgroves.earth/api/admins/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "password": "Founders@1MillionAcres",
+    "user_id": "Admin"
+}
+Request method:	DELETE
+Request URI:	https://devoutshade.sacredgroves.earth/api/admins/user/%60%7E%21%40?%5B%5D%3B%27%2C.%2F%40%23%24%25%5E&*
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Authorization=BearereyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXN1bHQiOnsidXNlcl9pZCI6IkFkbWluIiwicGFzc3dvcmQiOiJGb3VuZGVyc0AxTWlsbGlvbkFjcmVzIn0sImlhdCI6MTc0NTQ4MjMzMX0.a89CQj9BRUKxeNvTOkICx15IokrM2zs5qihJbJVkv1w
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>

@@ -58,12 +58,14 @@ public class SG_NG_Admin {
         request_body.put("password", password);
 
         Response response = given()
+                .contentType(ContentType.JSON)
+                .accept("application/json")
                 .header("Content-Type", "application/json")
                 .body(request_body.toString())
                 .post("https://devoutshade.sacredgroves.earth/api/admins/login");
         updateAllureTestCases("adminLoginForAuth");
         String responseString = response.getBody().asString();
-
+        response.then().log().all();
         Gson gson = new Gson();
 
         if (response.getStatusCode() == 200) {
@@ -87,6 +89,8 @@ public class SG_NG_Admin {
 
         // Response
         Response response = given()
+                .contentType(ContentType.JSON)
+                .accept("application/json")
                 .header("Content-Type", "application/json")
                 .contentType(ContentType.JSON)
                 .body(request_body.toString())
@@ -96,7 +100,9 @@ public class SG_NG_Admin {
         response.prettyPrint();
         // Print Statements
 //        System.out.println("Response : " + response.asString());
-//        System.out.println("Response Body : " + response.getBody().asString());
+//        System.out.println("Respon
+//
+//        se Body : " + response.getBody().asString());
 //        System.out.println("Status Code : " + response.getStatusCode());
         response.then().log().all();
 
@@ -116,6 +122,8 @@ public class SG_NG_Admin {
         JSONObject request_body = new JSONObject();
         // Response
         Response response = given()
+                .contentType(ContentType.JSON)
+                .accept("application/json")
                 .header("Content-Type", "application/json")
                 .header("Authorization","Bearer "+ authorizationToken)
                 .contentType(ContentType.JSON)
@@ -143,6 +151,8 @@ public class SG_NG_Admin {
         JSONObject request_body = new JSONObject();
         // Response
         Response response = given()
+                .contentType(ContentType.JSON)
+                .accept("application/json")
                 .header("Content-Type", "application/json")
                 .contentType(ContentType.JSON)
                 .body(request_body.toString())
@@ -150,6 +160,7 @@ public class SG_NG_Admin {
                 .get(url);
         System.out.println(response.statusCode());
         response.prettyPrint();
+        response.then().log().all();
         if (!(response.statusCode() ==401))
             Assert.fail("Expected status code is "+401+" but the actual status code is "+response.statusCode());
 
@@ -163,13 +174,15 @@ public class SG_NG_Admin {
         JSONObject request_body = new JSONObject();
         // Response
         Response response = given()
+                .contentType(ContentType.JSON)
+                .accept("application/json")
                 .header("Content-Type", "application/json")
                 .contentType(ContentType.JSON)
                 .body(request_body.toString())
                 .log().all()
                 .get(url);
         System.out.println(response.statusCode());
-        response.prettyPrint();
+        response.then().log().all();
         if (!(response.statusCode() ==401))
             Assert.fail("Expected status code is "+401+" but the actual status code is "+response.statusCode());
 
@@ -180,6 +193,8 @@ public class SG_NG_Admin {
         String url ="https://devoutshade.sacredgroves.earth/api/admins/user/"+ userid;
         updateAllureTestCases("DeleteUser_WithoutTokenID");
         Response response =given()
+                .contentType(ContentType.JSON)
+                .accept("application/json")
                 .header("Content-Type","application/json")
                 .contentType(ContentType.JSON)
                 .log().all()
@@ -196,12 +211,14 @@ public class SG_NG_Admin {
         String url ="https://devoutshade.sacredgroves.earth/api/admins/user/";
         updateAllureTestCases("DeleteUser_WithoutTokenAndUerCTN");
         Response response =given()
+                .contentType(ContentType.JSON)
+                .accept("application/json")
                 .header("Content-Type","application/json")
                 .contentType(ContentType.JSON)
                 .log().all()
                 .delete(url);
         System.out.println(response.statusCode());
-        response.prettyPrint();
+        response.then().log().all();
         if(!(response.statusCode()==401))
             Assert.fail("Expected status code is "+401+"but the actual status code is "+response.statusCode());
 
@@ -214,11 +231,14 @@ public class SG_NG_Admin {
         updateAllureTestCase(S_No, Description);
         String url = "https://devoutshade.sacredgroves.earth/api/admins/user/"+userid;
         Response response =given()
+                .contentType(ContentType.JSON)
+                .accept("application/json")
                 .header("Content-Type","application/json")
                 .header("Authorization","Bearer"+authorizationToken)
                 .contentType(ContentType.JSON)
                 .log().all()
                 .delete(url);
+        response.then().log().all();
         Assert.assertEquals(response.getStatusCode()+"", expected_status_code);
 
     }
@@ -228,11 +248,14 @@ public class SG_NG_Admin {
         String url ="https://devoutshade.sacredgroves.earth/api/admins/grovepoints";
         updateAllureTestCases("GrovePoints_WithoutToken");
         Response response =given()
+                .contentType(ContentType.JSON)
+                .accept("application/json")
                 .header("Content-Type","application/json")
                 .contentType(ContentType.JSON)
                 .log().all()
                 .get(url);
         System.out.println(response.statusCode());
+        response.then().log().all();
         response.prettyPrint();
         if(!(response.statusCode()==401))
             Assert.fail("Expected status code is "+401+"but the actual status code is "+response.statusCode());
@@ -244,11 +267,14 @@ public class SG_NG_Admin {
         String url ="https://devoutshade.sacredgroves.earth/api/admins/squads";
         updateAllureTestCases("Squads_withoutToken");
         Response response=given()
+                .contentType(ContentType.JSON)
+                .accept("application/json")
                 .header("Content-Type","application/json")
                 .contentType(ContentType.JSON)
                 .log().all()
                 .get(url);
         System.out.println(response.statusCode());
+        response.then().log().all();
         response.prettyPrint();
         if(!(response.statusCode()==401))
             Assert.fail("Expected status code is "+401+"but the actual status code is "+response.statusCode());
@@ -264,12 +290,15 @@ public class SG_NG_Admin {
         String url = "https://devoutshade.sacredgroves.earth/api/admins/invite";
         // Response
         Response response = given()
+                .contentType(ContentType.JSON)
+                .accept("application/json")
                 .header("Content-Type", "application/json")
                 .header("Authorization", "Bearer " + authorizationToken)
                 .contentType(ContentType.JSON)
                 .log().all()
                 .get(url);
         System.out.println(response.statusCode());
+        response.then().log().all();
         response.prettyPrint();
         Assert.assertEquals(response.getStatusCode()+"", expected_status_code);
 
@@ -281,12 +310,15 @@ public class SG_NG_Admin {
         String requestBody = "{\"email\":[\"adreno1mailinator.com\" ,\"adreno2mailinator.com\"]}";
 
         Response response =given()
+                .contentType(ContentType.JSON)
+                .accept("application/json")
                 .header("Content-Type","application/json")
                 .contentType(ContentType.JSON)
                 .body(requestBody)
                 .log().all()
                 .post(url);
         System.out.println(response.statusCode());
+        response.then().log().all();
         response.prettyPrint();
         if(!(response.statusCode()==401))
             Assert.fail("Expected status code is "+401+"but the actual status code is "+response.statusCode());

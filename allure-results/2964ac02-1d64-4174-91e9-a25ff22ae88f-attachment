@@ -1,0 +1,37 @@
+HTTP/1.1 404 Not Found
+Date: Thu, 24 Apr 2025 08:12:09 GMT
+Content-Type: text/html; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Content-Security-Policy: default-src 'none'
+X-DNS-Prefetch-Control: off
+Expect-CT: max-age=0
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer
+X-XSS-Protection: 0
+credentials: include
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: undefined
+Access-Control-Allow-Methods: GET,PUT,POST,DELETE
+Access-Control-Allow-Headers: X-Requested-With, X-HTTP-Method-Override, Content-Type, Accept
+cf-cache-status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=nmtqOSPZyAqnn1fv3uGxNmx82QT2gYg6ymcwwFq4VOEqFx%2FSFLMkcUg%2FyReIz4WH2HXWraxV%2B%2BMVsTpLGbC687QCDsUEgJZrdFUG3fAxZB70Pti3w0nHSdaToy5h92cpNVSe0sL0okYUjbkHMB3RMw%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 9354224e59feff67-BOM
+Content-Encoding: gzip
+server-timing: cfL4;desc="?proto=TCP&rtt=16291&min_rtt=16291&rtt_var=8145&sent=8&recv=8&lost=0&retrans=3&sent_bytes=6264&recv_bytes=841&delivery_rate=79818&cwnd=250&unsent_bytes=0&cid=3451d8de34f713d9&ts=324&x=0"
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Error</title>
+  </head>
+  <body>
+    <pre>Cannot DELETE /api/admins/user/</pre>
+  </body>
+</html>

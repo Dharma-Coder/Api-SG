@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+Date: Thu, 24 Apr 2025 08:12:28 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+cf-cache-status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=mVz9o6%2B78QUf8G5w4%2BuWTGo7JSjC2sBh1kTOsE7aH%2B6Mb27Aqm91UJZlP2kWAZgQqIKhg2yWlUFbYTykw9fnH8hxbcXp3n%2B%2FGk2Rmp%2BACzP%2FjIDfAp0RNwM%2F4ynVX2syEl%2BctuQpLHTZm3VcNfKHwuY%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 935422c52cec31ab-BOM
+Content-Encoding: gzip
+server-timing: cfL4;desc="?proto=TCP&rtt=18868&min_rtt=15956&rtt_var=8063&sent=5&recv=6&lost=0&retrans=0&sent_bytes=3132&recv_bytes=901&delivery_rate=270744&cwnd=248&unsent_bytes=0&cid=369266ff24d6c10d&ts=55&x=0"
+
+{
+    "status": "Fail",
+    "status_reason": "Enter a integer value"
+}

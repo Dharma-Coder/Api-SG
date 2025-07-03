@@ -1,0 +1,70 @@
+HTTP/1.1 200 OK
+Date: Thu, 24 Apr 2025 08:12:12 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+X-DNS-Prefetch-Control: off
+Expect-CT: max-age=0
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer
+X-XSS-Protection: 0
+credentials: include
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: undefined
+Access-Control-Allow-Methods: GET,PUT,POST,DELETE
+Access-Control-Allow-Headers: X-Requested-With, X-HTTP-Method-Override, Content-Type, Accept
+ETag: W/"d7-AzegujeFNKs53ip4shOdUn71LWI"
+cf-cache-status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=lKl95AiIBJYafmUJ1QyTxcgEvvsPy0XsodIO3ABDEsyUt92PEWkZg76SXZEVT%2B%2BXIGCwZLx%2Fsj%2BweAfJ7k%2FY4d17kxOof2VfNoMbGM6sMPjrESkFmLOvFPfZBifXmt%2Fy40v9GvdhCZ7jcMg9pHefSg%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 9354225c98c63c8e-BOM
+Content-Encoding: gzip
+server-timing: cfL4;desc="?proto=TCP&rtt=28047&min_rtt=19506&rtt_var=12712&sent=5&recv=6&lost=0&retrans=0&sent_bytes=3133&recv_bytes=914&delivery_rate=208403&cwnd=252&unsent_bytes=0&cid=0b577ec6963fb65f&ts=522&x=0"
+
+{
+    "success": 1,
+    "data": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXN1bHQiOnsidXNlcl9pZCI6IkFkbWluIiwicGFzc3dvcmQiOiJGb3VuZGVyc0AxTWlsbGlvbkFjcmVzIn0sImlhdCI6MTc0NTQ4MjMzMn0.Y-0K5W5owXELdJ9GojDclPjk8dTyDprsTb8rdoBP4CM"
+}
+HTTP/1.1 404 Not Found
+Date: Thu, 24 Apr 2025 08:12:12 GMT
+Content-Type: text/html; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Content-Security-Policy: default-src 'none'
+X-DNS-Prefetch-Control: off
+Expect-CT: max-age=0
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer
+X-XSS-Protection: 0
+credentials: include
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: undefined
+Access-Control-Allow-Methods: GET,PUT,POST,DELETE
+Access-Control-Allow-Headers: X-Requested-With, X-HTTP-Method-Override, Content-Type, Accept
+cf-cache-status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=nJV7QFAua2u1RLwwvwt1r97LYN61hOjM7lgpAIe8kdP98DyKaenmBae%2BUpE%2BZlZZGytbE36Gjzbq9PVCU3%2FxYA%2F9oqn5HKQ40tlgvPUp8HbwKpp%2FUQ19nGnN%2BmBA5EyGQ7hMtH9teZlrJER3pBcaOQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 935422603e823fbb-BOM
+Content-Encoding: gzip
+server-timing: cfL4;desc="?proto=TCP&rtt=20122&min_rtt=20108&rtt_var=7569&sent=5&recv=6&lost=0&retrans=0&sent_bytes=3132&recv_bytes=1056&delivery_rate=213607&cwnd=247&unsent_bytes=0&cid=b8ed1e71bd9b19b1&ts=66&x=0"
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Error</title>
+  </head>
+  <body>
+    <pre>Cannot DELETE /api/admins/user/</pre>
+  </body>
+</html>

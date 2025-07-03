@@ -1,0 +1,16 @@
+Request method:	POST
+Request URI:	https://devanalytics.sacredgroves.earth/api/clustermgmt/forest/cluster/view/by/ids/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "ownership_id": "9817d3  -6657-4a44-8a5e-        baf81badda6d",
+    "page_number": "1"
+}

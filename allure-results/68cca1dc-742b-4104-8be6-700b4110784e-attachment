@@ -1,0 +1,65 @@
+HTTP/1.1 200 OK
+Date: Thu, 24 Apr 2025 08:11:59 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+X-DNS-Prefetch-Control: off
+Expect-CT: max-age=0
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer
+X-XSS-Protection: 0
+credentials: include
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: undefined
+Access-Control-Allow-Methods: GET,PUT,POST,DELETE
+Access-Control-Allow-Headers: X-Requested-With, X-HTTP-Method-Override, Content-Type, Accept
+ETag: W/"d7-wudJ4S0t3z29dQflXs8/9nswyso"
+cf-cache-status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=nhjpQlgtI09wyJBLiiiT7Eb%2BdqJAnmaFP96p4G14ZpR32Gmb1%2FbAcOYeudQBinoUhFg40Oe%2FBB0NT9juGNWjBEDvnRfPCqgjoRSGeTWxKOLCnMQBNrjpokNKqGpmXRalTUh51DFznIYScb6N%2F0gq6Q%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 9354220d1b1d4805-BOM
+Content-Encoding: gzip
+server-timing: cfL4;desc="?proto=TCP&rtt=16840&min_rtt=16229&rtt_var=6522&sent=5&recv=6&lost=0&retrans=0&sent_bytes=3134&recv_bytes=914&delivery_rate=266190&cwnd=249&unsent_bytes=0&cid=fd65cd2ed648ebfb&ts=549&x=0"
+
+{
+    "success": 1,
+    "data": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXN1bHQiOnsidXNlcl9pZCI6IkFkbWluIiwicGFzc3dvcmQiOiJGb3VuZGVyc0AxTWlsbGlvbkFjcmVzIn0sImlhdCI6MTc0NTQ4MjMxOX0.yglLgZecVYjmh339czdefM105fDfEEXuf7tyTSS1fZg"
+}
+HTTP/1.1 500 Internal Server Error
+Date: Thu, 24 Apr 2025 08:12:00 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 100
+Connection: keep-alive
+Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+X-DNS-Prefetch-Control: off
+Expect-CT: max-age=0
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer
+X-XSS-Protection: 0
+credentials: include
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: undefined
+Access-Control-Allow-Methods: GET,PUT,POST,DELETE
+Access-Control-Allow-Headers: X-Requested-With, X-HTTP-Method-Override, Content-Type, Accept
+ETag: W/"64-/PCNtDi+1nxlnWBEyolTeFuLi60"
+cf-cache-status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=WjaeBxCcncHA3QW7P1oB3WcB6uiUjP%2FYF1v2n705lD7f%2F8LOEQ0Czyz5ObBzYLd1dSv4GXLsAX0EWDe0ugpudAMJth0bA0TQKNB6O8cD8eInqRXYLpWLA9V2hrVHerzatxzGUEadgQ647V5DnB%2FUow%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 93542210dfc23a40-BOM
+server-timing: cfL4;desc="?proto=TCP&rtt=19105&min_rtt=18791&rtt_var=5903&sent=5&recv=6&lost=0&retrans=0&sent_bytes=3133&recv_bytes=1086&delivery_rate=204158&cwnd=243&unsent_bytes=0&cid=9337625dc57fb790&ts=571&x=0"
+
+{
+    "success": 0,
+    "message": "An error occurred while fetching the user details. Please try again later."
+}

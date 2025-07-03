@@ -1,0 +1,15 @@
+Request method:	GET
+Request URI:	https://devoutshade.sacredgroves.earth/api/admins/user/60701d52-5686-4d59-bc83-dd2cc8b74160
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    
+}

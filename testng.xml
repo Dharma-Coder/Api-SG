@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
     <listeners>
-        <listener class-name="Listener.AllureListener"/>
+        <listener class-name="Listener.AllureLog"/>
     </listeners>
     <test verbose="10" preserve-order="true" name="APi_Negative">
         <classes>
@@ -10,26 +10,26 @@
                 <methods>
                     <include name="Login"/>
                     <include name="particular_user"/>
-<!--                    <include name="particular_user_WithoutTokenAndUerCTN"/>-->
-<!--                    <include name="particular_user_WithoutTokenID"/>-->
-<!--                    <include name="DeleteUser_WithoutTokenID"/>-->
-<!--                    <include name="DeleteUser_WithoutTokenAndUerCTN"/>-->
-<!--                    <include name="DeleteUser"/>-->
-<!--                    <include name="GrovePoints_WithoutToken"/>-->
-<!--                    <include name="Squads_withoutToken"/>-->
-<!--                    <include name="SendInvites"/>-->
-<!--                    <include name="SendInvitesWithoutToken"/>-->
+                    <include name="particular_user_WithoutTokenAndUerCTN"/>
+                    <include name="particular_user_WithoutTokenID"/>
+                    <include name="DeleteUser_WithoutTokenID"/>
+                    <include name="DeleteUser_WithoutTokenAndUerCTN"/>
+                    <include name="DeleteUser"/>
+                    <include name="GrovePoints_WithoutToken"/>
+                    <include name="Squads_withoutToken"/>
+                    <include name="SendInvites"/>
+                    <include name="SendInvitesWithoutToken"/>
 <!--                    D:/hp/untitled-->
                 </methods>
             </class>
-<!--            <class name="APi_Negative.Accounting.SG_NG_Analytics">-->
-<!--                <methods>-->
-<!--                    <include name="AllForestWeatherDetails"/>-->
-<!--                    <include name="TrendLine"/>-->
-<!--                    <include name="SpecificForestWeatherDetails"/>-->
-<!--                    <include name="OwnershipDetailsByForestID"/>-->
-<!--                </methods>-->
-<!--            </class>-->
+            <class name="APi_Negative.Accounting.SG_NG_Analytics">
+                <methods>
+                    <include name="AllForestWeatherDetails"/>
+                    <include name="TrendLine"/>
+                    <include name="SpecificForestWeatherDetails"/>
+                    <include name="OwnershipDetailsByForestID"/>
+                </methods>
+            </class>
         </classes>
     </test>
 </suite>

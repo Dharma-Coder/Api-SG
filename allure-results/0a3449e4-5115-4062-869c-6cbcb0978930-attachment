@@ -1,0 +1,36 @@
+HTTP/1.1 500 Internal Server Error
+Date: Thu, 24 Apr 2025 08:11:56 GMT
+Content-Type: text/html; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Content-Security-Policy: default-src 'none'
+X-DNS-Prefetch-Control: off
+Expect-CT: max-age=0
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer
+X-XSS-Protection: 0
+credentials: include
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: undefined
+Access-Control-Allow-Methods: GET,PUT,POST,DELETE
+Access-Control-Allow-Headers: X-Requested-With, X-HTTP-Method-Override, Content-Type, Accept
+cf-cache-status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=2G1bA4%2FbUmyD8DIqI3zTBaLNUpd7qq3mVMPuszjEJOR5GWBXMDyizVFV9Xk57CzlcTIVMpu2wPIe4iViF7iqRI%2Fpkn%2BSdbTVAK71tp8zeoV5NtASiOYJGD%2Bw0CqSbkiGfLiiqRqr5Ce2DZ4PODxcVQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 935421faca51471f-BOM
+server-timing: cfL4;desc="?proto=TCP&rtt=21137&min_rtt=14820&rtt_var=10070&sent=5&recv=6&lost=0&retrans=0&sent_bytes=3134&recv_bytes=914&delivery_rate=291497&cwnd=248&unsent_bytes=0&cid=a4c0588aa82347a1&ts=70&x=0"
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Error</title>
+  </head>
+  <body>
+    <pre>true</pre>
+  </body>
+</html>

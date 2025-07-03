@@ -1,0 +1,15 @@
+Request method:	POST
+Request URI:	https://devanalytics.sacredgroves.earth/api/clustermgmt/trend/line/details/
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "userId": "A6-21211113"
+}

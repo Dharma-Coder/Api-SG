@@ -1,0 +1,95 @@
+HTTP/1.1 200 OK
+Date: Thu, 24 Apr 2025 08:11:57 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+X-DNS-Prefetch-Control: off
+Expect-CT: max-age=0
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer
+X-XSS-Protection: 0
+credentials: include
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: undefined
+Access-Control-Allow-Methods: GET,PUT,POST,DELETE
+Access-Control-Allow-Headers: X-Requested-With, X-HTTP-Method-Override, Content-Type, Accept
+ETag: W/"d7-WJ5rvHqTWJkmJZS7/iBW1ovLnSs"
+cf-cache-status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=rg2rfUCQEEkiZIMwjHW6Yg2M%2FEfArTF%2BRbpkabHn%2B1tVGWgtG6oVV1tPv7%2B6WgokYe1mqlSkUqfe4jl3Q%2FDJZNhcnFnoixt41vuv8kYXfP1nJhczlggiaEd6dI3%2F8KWl5Nirhz47I5%2Fn1QFqDleXRA%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 935421ff4b566ed0-BOM
+Content-Encoding: gzip
+server-timing: cfL4;desc="?proto=TCP&rtt=16420&min_rtt=15471&rtt_var=7700&sent=5&recv=6&lost=0&retrans=0&sent_bytes=3132&recv_bytes=914&delivery_rate=187304&cwnd=252&unsent_bytes=0&cid=7b1884f340b59977&ts=554&x=0"
+
+{
+    "success": 1,
+    "data": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXN1bHQiOnsidXNlcl9pZCI6IkFkbWluIiwicGFzc3dvcmQiOiJGb3VuZGVyc0AxTWlsbGlvbkFjcmVzIn0sImlhdCI6MTc0NTQ4MjMxN30.xUOdJ62EBKn8kX-15SOMN98Ex2WIRb69a1wIrxz7IT4"
+}
+HTTP/1.1 200 OK
+Date: Thu, 24 Apr 2025 08:11:58 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+X-DNS-Prefetch-Control: off
+Expect-CT: max-age=0
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer
+X-XSS-Protection: 0
+credentials: include
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: undefined
+Access-Control-Allow-Methods: GET,PUT,POST,DELETE
+Access-Control-Allow-Headers: X-Requested-With, X-HTTP-Method-Override, Content-Type, Accept
+ETag: W/"1d9-EEDwHl9bBeD3uFq7EzdNY+Dr0T0"
+cf-cache-status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=B%2F74A70GFQ7f3IV%2BrPEvGiKMQLQhL1yw5sA7B3OtzHu7UZjkbMejtnknikFulIJ74QKmBcrHqtMtv3tP9ObyAg92s%2FUm%2Fffuin2%2Fvu6xUfrkwTtc4kWmd3ICigsk4WMRQdipg2OX%2F%2FHr98fc0zJbdQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 935422039c3d4820-BOM
+Content-Encoding: gzip
+server-timing: cfL4;desc="?proto=TCP&rtt=16979&min_rtt=16645&rtt_var=5320&sent=5&recv=6&lost=0&retrans=0&sent_bytes=3134&recv_bytes=1090&delivery_rate=228607&cwnd=250&unsent_bytes=0&cid=6e9f7c4ba26f203d&ts=1471&x=0"
+
+{
+    "success": 1,
+    "data": {
+        "ctn": "0067e96f-2f47-4d8f-864a-0906d54173ad",
+        "email": "adreno2@mailinator.com",
+        "phone_number": "+15714788202",
+        "first_name": "Ankit",
+        "middle_name": null,
+        "last_name": "Nayak",
+        "status": "active",
+        "user_level": 360,
+        "score": 4413050,
+        "address": null,
+        "city": null,
+        "state": null,
+        "zip": null,
+        "country": null,
+        "created_on": "2022-09-13T11:51:16.000Z",
+        "img_url": null,
+        "squads": {
+            "total": 4,
+            "admin": 2
+        },
+        "clusters": {
+            "bought": 1614,
+            "gifted": 113
+        },
+        "payed": 0,
+        "dollar": 0,
+        "euro": 0,
+        "pound": 0
+    }
+}

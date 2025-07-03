@@ -1,0 +1,244 @@
+HTTP/1.1 200 OK
+Date: Thu, 24 Apr 2025 08:12:08 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+X-DNS-Prefetch-Control: off
+Expect-CT: max-age=0
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer
+X-XSS-Protection: 0
+credentials: include
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: undefined
+Access-Control-Allow-Methods: GET,PUT,POST,DELETE
+Access-Control-Allow-Headers: X-Requested-With, X-HTTP-Method-Override, Content-Type, Accept
+ETag: W/"d7-YdcBG6k91uGmPc6qrMnSniiN8Jg"
+cf-cache-status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=QFvcPTZPrA9uohjm75XSARKuFpSGPJLJTtZBkYa%2BYG%2FQO3Cmnnmc5v%2FM0AKCPnEsP6%2BoFDEZ5PrPGbr7LLmkajnHpd3c%2B9xs7ZvMR4YwkcM3rsVF0MJ1LmQ90kfvqE9FIz2OidyGeFNslKOe5o36Sw%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 93542243ca433e3f-BOM
+Content-Encoding: gzip
+server-timing: cfL4;desc="?proto=TCP&rtt=18002&min_rtt=17399&rtt_var=7731&sent=5&recv=6&lost=0&retrans=0&sent_bytes=3133&recv_bytes=914&delivery_rate=194384&cwnd=252&unsent_bytes=0&cid=21bc05d669b62504&ts=504&x=0"
+
+{
+    "success": 1,
+    "data": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXN1bHQiOnsidXNlcl9pZCI6IkFkbWluIiwicGFzc3dvcmQiOiJGb3VuZGVyc0AxTWlsbGlvbkFjcmVzIn0sImlhdCI6MTc0NTQ4MjMyOH0.4Zltg8pQ8xoiGgkof-QjfBP1kogstHeuMz4IGhCZk6Q"
+}
+HTTP/1.1 200 OK
+Date: Thu, 24 Apr 2025 08:12:08 GMT
+Content-Type: text/html; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+X-DNS-Prefetch-Control: off
+Expect-CT: max-age=0
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+X-Download-Options: noopen
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer
+X-XSS-Protection: 0
+credentials: include
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: undefined
+Access-Control-Allow-Methods: GET,PUT,POST,DELETE
+Access-Control-Allow-Headers: X-Requested-With, X-HTTP-Method-Override, Content-Type, Accept
+cf-cache-status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=ALWzcCGlFv35yxeIogyvVwWSoCZmvWl5WDzN4AK6k4C3ZVal5g0f0HQhdp3F0YRmdxjHd1eOLLzl8OT4Hjx3S04acYS2wO1a%2BykjkqCnFobdL79u3nDBP901TBGqDh3n3LJkZ4km3W%2BhVr1GG89wSA%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 9354224788853ff5-BOM
+Content-Encoding: gzip
+server-timing: cfL4;desc="?proto=TCP&rtt=21177&min_rtt=17219&rtt_var=8375&sent=8&recv=8&lost=0&retrans=0&sent_bytes=5232&recv_bytes=1529&delivery_rate=250681&cwnd=250&unsent_bytes=0&cid=3958f8766905b2ad&ts=98&x=0"
+
+<html>
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Oops... Page not found!</title>
+    <link rel="icon" href="assets/img/favicon.ico" type="image/gif"/>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1"/>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro|Baloo+Chettan" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"/>
+    <style>
+	body {
+	  margin: 0px;
+	  background: url(assets/img/home.png) center/cover #232323;
+	  font-weight: normal;
+	  font-family: Source Sans Pro, Helvetica Neue, Helvetica, Arial, sans-serif;
+	  font-size:16px;
+	  color: #A68793;
+	  overflow-x: hidden;
+      overflow-y: hidden;
+	  height: 100vh;
+	}
+	body::before {
+	  content: ' ';
+	  /*background: url(imgs/forest.png) center/cover;*/
+	  width: 100%;
+	  position: absolute;
+	  z-index: 2
+	}
+	body::after {
+	  content: ' ';
+	  background: rgba(0, 0, 0, .2);
+	  height: 100vh;
+	  width: 100%;
+	  position: absolute;
+	  z-index: 0;
+	  top: 0;
+	  left: 0;
+	}
+	a {
+	  text-decoration: none;
+	  color: #fff;
+	}
+	h3 {
+	  -webkit-transform: rotate(-45deg) translateY(-30px);
+			  transform: rotate(-45deg) translateY(-30px);
+	  color: white;
+	  width: 100px;
+	  font-family: 'Source Sans Pro', sans-serif;
+	}
+
+	/**********************************/
+	/********** 3.0 Header  ***********/
+	/**********************************/
+	header {
+	  padding: 15px 0 0;
+	  background: -webkit-linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.2),transparent);
+	  background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.2),transparent);
+	}
+	header img {
+	  display:block;
+	  margin: 15px 0;
+	}
+	header .nav &gt; li &gt; a {
+	  font-weight: 900;
+	}
+	header .nav &gt; li &gt; a:focus,
+	header .nav &gt; li &gt; a:hover {
+	  background: transparent;
+	  text-decoration: underline;
+	  color: #fff
+	}
+	header .navbar-brand {
+	  font-size: 18px;
+	  font-family: 'Baloo Chettan', cursive;
+	  text-shadow: 2px 2px rgba(0, 0, 0, .4);
+	}
+	header .navbar-brand:hover {
+	  color: #eee;
+	}
+	header .navbar-brand span {
+	  color: #9dab6e;
+	}
+	header .navbar-toggle {
+	  background: rgba(0, 0, 0, .1);
+	}
+	header .navbar-toggle .icon-bar {
+	  background: #9dab6e;
+	}
+
+	/**********************************/
+	/****** 4.0 Content Styles  *******/
+	/**********************************/
+	.main {
+	  margin-top: 25px;
+	  margin-bottom: 25px;
+	  text-align: center;
+	  position: relative;
+	}
+	.main .scene {
+	  z-index: 1;
+	  padding: 0;
+	  margin: 0;
+	}
+	.main .relative {
+	  position: relative;
+	  z-index: 13
+	}
+	.main h2 {
+	  color: #fff;
+	  font-size: 32px;
+	  margin-bottom: 40px;
+	}
+	.main .error {
+	  color: #fff;
+	  font-size: 12vw;
+	  text-align: center;
+	  font-weight: 700;
+	  font-family: sans-serif;
+	  z-index: 1;
+	  position: relative;
+	}
+	.main .btn {
+	  border: solid 3px #44D09F;
+      background-color: #44D09F;
+	  font-size: 18px;
+	  font-weight: 900;
+	  padding: 18px 45px;
+	  -webkit-border-radius: 5px;
+	  -moz-border-radius: 5px;
+	  border-radius: 5px;
+	  color: #fff;
+	}
+	.main .btn:hover {
+	  color: #fff;
+      border: solid 3px#47DCA8;
+      background-color: #47DCA8;
+	}
+
+	/**********************************/
+	/******* 2.0 Ghost Elements *******/
+	/**********************************/
+	@media (max-width:768px) {
+	  .main .error {
+		font-size: 29vw;
+	  }
+	  .main .btn {
+		padding: 18px 45px;
+	  }
+	}
+	@media (max-width:568px) {
+	  .main .btn {
+		padding: 18px 25px;
+	  }
+	}
+	</style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="relative">
+        <a shape="rect" class="navbar-brand" href="/">
+          <img src="assets/img/dashLogo.png"/>
+        </a>
+      </div>
+      <div style="padding: 15vh 0px;">
+        <ul class="scene" id="scene">
+          <li class="layer" data-depth="0.13">
+            <div class="error">Oops</div>
+          </li>
+        </ul>
+        <div class="relative">
+          <h2>The page you are looking for doesn't exist.</h2>
+          <a shape="rect" class="btn" href="https://application.sacredgroves.earth">Go back to our Homepage.</a>
+        </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"/>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"/>
+    <script src="assets/js/parallax.min.js"/>
+    <script>
+    var scene = document.getElementById('scene');
+    var parallax = new Parallax(scene);
+  </script>
+  </body>
+</html>

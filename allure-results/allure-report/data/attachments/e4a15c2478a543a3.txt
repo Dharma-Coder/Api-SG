@@ -1,0 +1,16 @@
+Request method:	POST
+Request URI:	https://devoutshade.sacredgroves.earth/api/admins/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=application/json
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "password": "SacredGroves@FT!@#007",
+    "user_id": ""
+}
